@@ -5,29 +5,21 @@ package za.co.bakery.domain;
  * @author StuartLittles
  */
 public class Product {
-<<<<<<< HEAD
+
     private int productID;
     private String name;
-=======
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
+    private int Quantity;
     private String picture;
     private double price;
     private Category category;
     private String warning;
     private String description;
     private int recipeID;
-<<<<<<< HEAD
 
-    public Product(){}
-    
-    public Product( int productID, String name, String picture, double price, Category category, String warning, String description, int recipeID) {
-=======
-    private int productID;
-    private String name;
-    private int Quantity;
+    public Product() {
+    }
 
-    public Product( int productID, String name, String picture, double price, Category category, String warning, String description, int recipeID, int qty) {
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
+    public Product(int productID, String name, String picture, double price, Category category, String warning, String description, int recipeID) {
         this.picture = picture;
         this.price = price;
         this.category = category;
@@ -36,10 +28,22 @@ public class Product {
         this.recipeID = recipeID;
         this.productID = productID;
         this.name = name;
-<<<<<<< HEAD
-=======
+
+    }
+
+    public Product(int productID, String name, String picture, double price, Category category, String warning, String description, int recipeID, int qty) {
+
+        this.picture = picture;
+        this.price = price;
+        this.category = category;
+        this.warning = warning;
+        this.description = description;
+        this.recipeID = recipeID;
+        this.productID = productID;
+        this.name = name;
+
         this.Quantity = qty;
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
+
     }
 
     public int getRecipeID() {
@@ -49,9 +53,6 @@ public class Product {
     public void setRecipeID(int recipeID) {
         this.recipeID = recipeID;
     }
-<<<<<<< HEAD
-   
-=======
 
     public int getQuantity() {
         return Quantity;
@@ -61,9 +62,6 @@ public class Product {
         this.Quantity = Quantity;
     }
 
-   
-    
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
     public String getName() {
         return name;
     }
@@ -71,8 +69,6 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
-    
-    
 
     public String getPicture() {
         return picture;
@@ -159,6 +155,5 @@ public class Product {
         }
         return true;
     }
-    
-    
+
 }

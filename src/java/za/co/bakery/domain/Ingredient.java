@@ -5,12 +5,12 @@ package za.co.bakery.domain;
  *
  * @author StuartLittles
  */
-<<<<<<< HEAD
+
 public class Ingredient {
     private int ingredientID;
-=======
-class Ingredient {
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
+
+
+
     private String name;
     private String nutrient;
 
@@ -19,19 +19,19 @@ class Ingredient {
         return name + nutrient;
     }
 
-<<<<<<< HEAD
-    public Ingredient(String name, String nutrient, int ingredientID) {
-=======
-    public Ingredient(String name, String nutrient) {
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
+ public Ingredient(String name, String nutrient) {
+
         this.name = name;
         this.nutrient = nutrient;
+    }
+    public Ingredient(String name, String nutrient, int ingredientID) {
+
     }
 
     public String getName() {
         return name;
     }
-<<<<<<< HEAD
+
     
     public int getIngredientID() {
         return ingredientID;
@@ -40,9 +40,7 @@ class Ingredient {
     public void setIngredientID(int ingredientID) {
         this.ingredientID = ingredientID;
     }
-=======
 
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
     public void setName(String name) {
         this.name = name;
     }
@@ -56,3 +54,4 @@ class Ingredient {
     }
     
 }
+

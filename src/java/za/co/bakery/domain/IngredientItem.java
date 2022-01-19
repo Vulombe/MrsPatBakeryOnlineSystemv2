@@ -5,11 +5,9 @@ package za.co.bakery.domain;
  *
  * @author StuartLittles
  */
-<<<<<<< HEAD
+
 public class IngredientItem{
-=======
-class IngredientItem{
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
+
     private int qty;
     private Ingredient ingredient;
 

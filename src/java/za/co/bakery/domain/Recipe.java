@@ -7,11 +7,10 @@ import java.util.ArrayList;
  *
  * @author StuartLittle
  */
-<<<<<<< HEAD
+
 public class Recipe {
-=======
-class Recipe {
->>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
+
+
     private String steps;
     private ArrayList<IngredientItem> ingredients;
     private String recipeName;
