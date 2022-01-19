@@ -7,7 +7,10 @@ import java.util.ArrayList;
  *
  * @author StuartLittle
  */
-class Recipe {
+
+public class Recipe {
+
+
     private String steps;
     private ArrayList<IngredientItem> ingredients;
     private String recipeName;

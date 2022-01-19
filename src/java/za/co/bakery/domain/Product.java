@@ -5,17 +5,21 @@ package za.co.bakery.domain;
  * @author StuartLittles
  */
 public class Product {
+
+    private int productID;
+    private String name;
+    private int Quantity;
     private String picture;
     private double price;
     private Category category;
     private String warning;
     private String description;
     private int recipeID;
-    private int productID;
-    private String name;
-    private int Quantity;
 
-    public Product( int productID, String name, String picture, double price, Category category, String warning, String description, int recipeID, int qty) {
+    public Product() {
+    }
+
+    public Product(int productID, String name, String picture, double price, Category category, String warning, String description, int recipeID) {
         this.picture = picture;
         this.price = price;
         this.category = category;
@@ -24,7 +28,22 @@ public class Product {
         this.recipeID = recipeID;
         this.productID = productID;
         this.name = name;
+
+    }
+
+    public Product(int productID, String name, String picture, double price, Category category, String warning, String description, int recipeID, int qty) {
+
+        this.picture = picture;
+        this.price = price;
+        this.category = category;
+        this.warning = warning;
+        this.description = description;
+        this.recipeID = recipeID;
+        this.productID = productID;
+        this.name = name;
+
         this.Quantity = qty;
+
     }
 
     public int getRecipeID() {
@@ -43,8 +62,6 @@ public class Product {
         this.Quantity = Quantity;
     }
 
-   
-    
     public String getName() {
         return name;
     }
@@ -52,8 +69,6 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
-    
-    
 
     public String getPicture() {
         return picture;
@@ -140,6 +155,5 @@ public class Product {
         }
         return true;
     }
-    
-    
+
 }

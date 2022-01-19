@@ -5,7 +5,9 @@ package za.co.bakery.domain;
  *
  * @author StuartLittles
  */
-class IngredientItem{
+
+public class IngredientItem{
+
     private int qty;
     private Ingredient ingredient;
 

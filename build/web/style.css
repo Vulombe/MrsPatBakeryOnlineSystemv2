@@ -1,7 +1,28 @@
+<<<<<<< HEAD
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2022, 11:47:43 AM
+    Author     : student11
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+head{
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/circled-left.png");
+    
+}
+
+* {
+    box-sizing: border-box;
+    
+=======
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
     box-sizing: border-box;
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
 }
 
 body {
@@ -53,6 +74,10 @@ a {
     max-width: 100%;
     min-height: 480px;
     opacity: 0.8;
+<<<<<<< HEAD
+    background-color:black;
+=======
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
 }
 
 .form-container form {
@@ -61,6 +86,10 @@ a {
     flex-direction: column;
     padding: 0 50px;
     height: 100%;
+<<<<<<< HEAD
+    width: 100%;
+=======
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -262,3 +291,227 @@ button.ghost {
 .container.right-panel-active .overlay-right {
     transform: translateX(20%);
 }
+<<<<<<< HEAD
+
+/*//////////////////// slide show////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* nav bar/////////////////////////////////////////////////////////////////////////*/
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+   /* background-color: #8842d5;*/
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+/* A color changes when hovered over */
+li a:hover {
+    background-color: #7300ff;
+}
+div b{
+    height: 400px;
+background-color: white;
+font-family: white;
+
+
+}
+/*///////////////////catagories///////////////////////*/
+h4{
+    font-weight: bold;
+    color:black;
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+    display: block;
+    border-bottom: 3px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+h3{
+    font-weight: bold;
+  color:black;
+    font-weight: bold;
+    margin: 0; 
+     display: inline-block;
+    background-color: white;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    float: left;
+}
+
+   
+    
+   *  {
+        
+    margin: 0;
+    padding: 0;
+}
+body1 {
+    background-color: #F2EEE9;
+    font: normal 13px/1.5 Georgia, Serif;
+    color: #333;
+}
+.wrapper {
+    width: 705px;
+    margin: 10px auto;
+   padding: 1px;
+}
+
+.clear {
+    clear: both;
+}
+.items {
+    display: block;
+    margin: 40px 0;
+    
+}
+.item {
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 205px;
+    padding: 10px;
+    height: 290px;
+}
+.item img {
+    display: block;
+    margin: auto;
+    color: white;
+    
+    
+}
+
+button {
+    border: 1px solid #722A1B;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+span1 {
+    float: right;
+    color: white;
+    font-size: 12px;
+    color: beige;
+}
+.shopping-cart {
+    display: inline-block;
+    background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+    width: 60px;
+    height: 44px;
+    margin: 0 10px 0 0;
+}
+div1 {
+    height: 400px;
+background-color: white;
+font-family: white;
+
+
+}
+=======
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b

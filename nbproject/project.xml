@@ -37,10 +37,17 @@
             </web-module-libraries>
             <web-module-additional-libraries/>
             <source-roots>
+<<<<<<< HEAD
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+=======
                 <root id="src.dir" name="Source Packages"/>
             </source-roots>
             <test-roots>
                 <root id="test.src.dir" name="Test Packages"/>
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
             </test-roots>
         </data>
     </configuration>

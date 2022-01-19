@@ -1,14 +1,26 @@
 <%-- 
     Document   : index
+<<<<<<< HEAD
+    Created on : Jan 14, 2022, 11:46:56 AM
+    Author     : student11
+=======
     Created on : 14 Jan 2022, 12:52:04 PM
     Author     : Studio13
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
+<<<<<<< HEAD
+<head >
+    <button id="back" onclick="goBack()">BACK</button>
+    <button id="forward" onclick="goForward()">FORWARD</button>
+    
+=======
 <head>
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
     <meta charset="UTF-8" />
     <meta name="viewport" content="width-device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="sie-edge" />
@@ -41,11 +53,19 @@
         </div>
         <div class="form-container sign-in-container">
             <form action="#">
+<<<<<<< HEAD
+                <h1> Login </h1>
+        
+                <input type="email" name="loginEmail" placeholder="Email">
+                <input type="Password" name="loginPassword" placeholder="Password">
+                <button> Login </button>
+=======
                 <h1>Login</h1>
         >
                 <input type="email" name="loginEmail" placeholder="Email">
                 <input type="Password" name="loginPassword" placeholder="Password">
                 <button>Login</button>
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
             </form>
         </div>
         <div class="overlay-container">
@@ -67,4 +87,8 @@
     <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
