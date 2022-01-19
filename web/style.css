@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -16,6 +17,12 @@ head{
 * {
     box-sizing: border-box;
     
+=======
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
 }
 
 body {
@@ -67,7 +74,10 @@ a {
     max-width: 100%;
     min-height: 480px;
     opacity: 0.8;
+<<<<<<< HEAD
     background-color:black;
+=======
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
 }
 
 .form-container form {
@@ -76,7 +86,10 @@ a {
     flex-direction: column;
     padding: 0 50px;
     height: 100%;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -278,6 +291,7 @@ button.ghost {
 .container.right-panel-active .overlay-right {
     transform: translateX(20%);
 }
+<<<<<<< HEAD
 
 /*//////////////////// slide show////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 * {
@@ -499,3 +513,5 @@ font-family: white;
 
 
 }
+=======
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b

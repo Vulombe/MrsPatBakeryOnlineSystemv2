@@ -5,6 +5,7 @@
     </listener>
     <context-param>
         <param-name>url</param-name>
+<<<<<<< HEAD
         <param-value>jdbc:mysql://192.168.128.104:3306/</param-value>
     </context-param>
     <context-param>
@@ -14,6 +15,17 @@
     <context-param>
         <param-name>password</param-name>
         <param-value>teamuser</param-value>
+=======
+        <param-value>jdbc:mysql://localhost:3306/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>user_name</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>root</param-value>
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
     </context-param>
     <context-param>
         <param-name>database</param-name>

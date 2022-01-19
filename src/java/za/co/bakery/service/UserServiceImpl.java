@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package za.co.bakery.service;
 
 import java.util.List;
@@ -49,4 +50,24 @@ public class UserServiceImpl implements UserService {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+=======
+
+package za.co.bakery.service;
+
+import za.co.bakery.dbao.UserDOA;
+import za.co.bakery.dbao.UserDOAImpl;
+
+
+public class UserServiceImpl implements UserService{
+    private UserDOA userdao;
+    public UserServiceImpl(){
+        this.userdao=new UserDOAImpl();
+    }
+
+    @Override
+    public boolean isUserValid(String email, String password) {
+       return userdao.isUserValid(email, password);
+    }
+    
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
 }

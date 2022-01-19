@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -68,3 +69,18 @@ function goForward() {
 
 
 
+=======
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+
+signUpButton.addEventListener('click', () => {
+    container.classList.add("right-panel-active");
+});
+
+
+signInButton.addEventListener('click', () => {
+    container.classList.remove("right-panel-active");
+});
+>>>>>>> ebdf52d7c2de03e58c654e3f009d94bc74e1ae0b
